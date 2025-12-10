@@ -1,0 +1,31 @@
+.full-bar {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 20px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg1 {
+    background-image:
+        linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)),
+        url('/assets/images/bg1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-me summary {
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #fcd24d;   /* makes it stand out */
+    margin-top: 1em;
+    transition: max-height 0.5s ease;
+}
+
+.about-me div {
+    padding-top: 10px;
+    line-height: 1.6;
+}

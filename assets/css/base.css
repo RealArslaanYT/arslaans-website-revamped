@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    margin: 0;
+    background-color: #111;
+    color: #eaeaea;
+    /* background-image: linear-gradient(rgba(15, 18, 25, 0.5), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial2; */
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* adds space around header */
+    border-bottom: 1px solid #eaeaea;
+}
+
+.social-link svg {
+    fill: white;
+    width: 32px;
+    height: 32px;
+}
+
+.nav-items, .social-links {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-item.active {
+    text-decoration-line: underline;
+    text-decoration-color: #fcd24d;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+}
+
+.nav-item:hover {
+    color: #0070f3; /* subtle hover effect */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.atkinson-hyperlegible-regular {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-bold {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.atkinson-hyperlegible-regular-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.atkinson-hyperlegible-bold-italic {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 10px 20px;
+    }
+
+    .social-links {
+        display: none;
+    }
+}
