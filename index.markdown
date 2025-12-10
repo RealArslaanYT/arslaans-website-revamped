@@ -59,3 +59,37 @@ A thingy that does thingy
 
 </div>
 </div>
+
+<br/>
+
+<div class="full-bar bg3">
+<div class="content" markdown="1">
+
+# test 3
+A thingy that does thingy
+
+## Features
+- thing1
+- thing2
+- thing3
+- thing4
+
+</div>
+</div>
+
+<br/>
+
+<div class="full-bar bg4">
+<div class="content" markdown="1">
+
+# test 4
+A thingy that does thingy
+
+## Features
+- thing1
+- thing2
+- thing3
+- thing4
+
+</div>
+</div>
