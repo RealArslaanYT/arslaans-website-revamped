@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Arslaan Pathan | {{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/base.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arslaan Pathan | {{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/base.css" />
 
-  {{ page.head_extra }}
-</head>
-<body>
-  <header class="site-header">
-    <h2>Arslaan Pathan</h2>
+    {{ page.head_extra }}
+  </head>
+  <body>
+    <header class="site-header">
+      <h2>Arslaan Pathan</h2>
 
-    {% assign sorted_pages = site.pages | sort: "nav_order" %}
-    <div class="nav-items">
-      {% for p in sorted_pages %}
-        {% if p.title %}
-          <a
-            class="nav-item {% if p.url == page.url %}active{% endif %}"
-            href="{{ p.url | relative_url }}"
-          >
-            {{ p.title | escape }}
-          </a>
-        {% endif %}
-      {% endfor %}
-    </div>
+      {% assign sorted_pages = site.pages | sort: "nav_order" %}
+      <div class="nav-items">
+        {% for p in sorted_pages %} {% if p.title %}
+        <a
+          class="nav-item {% if p.url == page.url %}active{% endif %}"
+          href="{{ p.url | relative_url }}"
+        >
+          {{ p.title | escape }}
+        </a>
+        {% endif %} {% endfor %}
+      </div>
 
-    {%- include socials.html -%}
-  </header>
+      {%- include socials.html -%}
+    </header>
 
-  <div class="content">
-    {{ content }}
-  </div>
+    <div class="content">{{ content }}</div>
 
-  <footer>
-    <!-- footer here -->
-  </footer>
-</body>
+    <footer class="site-footer">
+      <div class="content">
+        <p>© 2025 Arslaan Pathan. All rights reserved.</p>
+        <p>All trademarks referenced are the property of their respective owners. No ownership is claimed.</p>
+        <p>Built with &lt;3 using Jekyll & self-hosted on a Raspberry Pi 5.</p>
+      </div>
+    </footer>
+  </body>
 </html>

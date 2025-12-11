@@ -27,6 +27,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  RealArslaanYT
 
 markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
 
 # Build settings
 plugins:
