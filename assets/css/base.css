@@ -210,6 +210,21 @@ code {
 .highlight .o { color: #f8f8f2; }
 .highlight .p { color: #f8f8f2; }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 680px) {
   .content {
     padding: 10px 20px;
