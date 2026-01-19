@@ -17,7 +17,7 @@ nav_order: 1
   <summary>Read more about me</summary>
   <div markdown="1">
 
-I like computer science, writing stories (sometimes), Linux, FOSS (Free Open-Source Software), hacking, reverse-engineering and iOS jailbreaking. My favorite genre of music is Hyperpop, particularly Hyperpop-Digicore & Hyperpop-Glitchcore. One of my best (and most recent) projects is a CSS-in-JS library called **styl1sh.js** that aims to make CSS more powerful and allows you to create dynamic styles.
+I like computer science, writing stories (sometimes), Linux, FOSS (Free Open-Source Software), hacking, reverse-engineering and iOS jailbreaking. My favorite genre of music is Hyperpop, particularly Hyperpop-Digicore & Hyperpop-Glitchcore. I'm currently the founder and CEO of Pidjon Enterprises, building voice-controlled companion robots with custom embedded Linux, alongside various other projects in web development, system programming, and hardware hacking.
 
 I mainly use Fedora on my M2 MacBook Pro (thanks to the [Asahi Linux](https://asahilinux.org) project) with the Hyprland tiling window manager along with waybar for the menu bar, rofi-wayland for the app launcher & settings menus, and nwg-displays for the displays settings. Occasionally, I'll use MacOS for some specific tasks that are more oriented towards the platform (e.g. mobile app development [iOS toolchains]). My favorite games are Minecraft and Stick Fight: The Game. I’ve been programming and tinkering with devices since the age of six. What originally got me into programming was looking at my old iPad 2 (which I still have as of 2025, six years later - it's now jailbroken with [EtasonJB](https://etasonjb.tihmstar.net/){: target="_blank" } because I felt like it) and saying – “how are these apps made?”
 
@@ -29,6 +29,41 @@ Feel free to explore my projects, stories, and achievements, and thanks for stop
 <br/>
 
 <div class="full-bar bg1">
+<div class="content" markdown="1">
+
+# [Pidjon Enterprises](https://pidjon.arslaancodes.com){: .white target="_blank" }
+
+Co-founded a robotics startup building voice-controlled companion robots with custom embedded Linux. Leading technical development and managing a 4-person team.
+
+- Role: Founder, CEO & Lead Developer
+- Timeline: Oct 2025 - Present
+
+---
+
+## Responsibilities
+
+- Architecting secure boot system with dm-verity and A/B OTA updates
+- Building custom Yocto-based Linux distribution for Raspberry Pi 5
+- Designing system architecture for SLAM, voice recognition, and AI integration
+- Managing technical roadmap and coordinating with engineering team
+
+---
+
+## Tech Stack
+- Raspberry Pi 5
+- Yocto (OpenEmbedded, BitBake, kas)
+- Python
+- Go
+- dm-verity
+- Linux
+- Shell scripting/sh
+
+</div>
+</div>
+
+<br/>
+
+<div class="full-bar bg2">
 <div class="content" markdown="1">
 
 # [styl1sh.js](https://github.com/RealArslaanYT/styl1sh.js){: .white target="_blank" }
@@ -52,7 +87,7 @@ A lightweight CSS-in-JS library that makes your styles dynamic.
 
 <br/>
 
-<div class="full-bar bg2">
+<div class="full-bar bg3">
 <div class="content" markdown="1">
 
 # [SCR4TCH](/links-page/scr4tch/){: .white }
@@ -73,7 +108,7 @@ A modification of Scratch that allows you to parse JSON, send HTTP requests, and
 
 <br/>
 
-<div class="full-bar bg3">
+<div class="full-bar bg4">
 <div class="content" markdown="1">
 
 # [Onyx Client](https://github.com/RealArslaanYT/onyx-client-core){: .white target="_blank" }
@@ -97,7 +132,7 @@ A modern, feature-packed client for Minecraft 1.21.5, designed to enhance the us
 
 <br/>
 
-<div class="full-bar bg4">
+<div class="full-bar bg5">
 <div class="content" markdown="1">
 
 # [BrowserServicePython](https://github.com/RealArslaanYT/BrowserServicePython){: .white target="_blank" }
@@ -119,7 +154,7 @@ A lightweight remote browser service written in Python. Allows you to access a r
 
 <br/>
 
-<div class="full-bar bg5">
+<div class="full-bar bg2">
 <div class="content" markdown="1">
 
 # [Showdown of the Sticks](https://realarslaanyt.github.io/Showdown-Of-The-Sticks){: .white target="_blank" }
