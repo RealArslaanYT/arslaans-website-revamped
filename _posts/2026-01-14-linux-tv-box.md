@@ -58,7 +58,8 @@ Are they worth it? No. Never again. We don’t talk about my experiences with th
 ---
 
 Thanks for reading my blog post!  
-Feel free to watch the YouTube video linked below if you prefer to watch content in video format.
+I'm a 12-year-old developer making niche tech content here on my website and also on YouTube, so I really appreciate the support!  
+Feel free to watch the YouTube video linked below if you prefer to watch content in video format, and remember to follow me on all my socials!
 
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/h3BHi7Ohl1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

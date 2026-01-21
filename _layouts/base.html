@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arslaan Pathan | {{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/base.css" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
@@ -11,13 +11,20 @@
   </head>
   <body>
     <header class="site-header">
-      <h2><a href="/" class="white" style="text-decoration: none;">Arslaan Pathan</a></h2>
+      <h2>
+        <a href="/" class="white" style="text-decoration: none"
+          >Arslaan Pathan</a
+        >
+      </h2>
 
       {% assign sorted_pages = site.pages | sort: "nav_order" %}
       <div class="nav-items">
-        {% for p in sorted_pages %} {% if p.title %}
+        {% for p in sorted_pages %} {% if p.title %} {% assign is_active = false
+        %} {% if p.url == page.url %}{% assign is_active = true %}{% endif %} {%
+        if p.title == 'Blog' and page.layout == 'post' %}{% assign is_active =
+        true %}{% endif %}
         <a
-          class="nav-item {% if p.url == page.url %}active{% endif %}"
+          class="nav-item {% if is_active %}active{% endif %}"
           href="{{ p.url | relative_url }}"
         >
           {{ p.title | escape }}
@@ -33,9 +40,15 @@
     <footer class="site-footer">
       <div class="content">
         <p>© 2025 Arslaan Pathan. All rights reserved.</p>
-        <p>All trademarks referenced are the property of their respective owners. No ownership is claimed.</p>
+        <p>
+          All trademarks referenced are the property of their respective owners.
+          No ownership is claimed.
+        </p>
         <p>Built with &lt;3 using Jekyll & self-hosted on a Raspberry Pi 5.</p>
-        <p>Email: <a href="mailto:arslaan@arslaancodes.com">arslaan@arslaancodes.com</a></p>
+        <p>
+          Email:
+          <a href="mailto:arslaan@arslaancodes.com">arslaan@arslaancodes.com</a>
+        </p>
       </div>
     </footer>
   </body>
