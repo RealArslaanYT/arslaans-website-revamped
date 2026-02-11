@@ -11,7 +11,7 @@ nav_order: 1
 
 ### Hi, I'm Arslaan!
 
-# I'm a 12-year-old developer exploring programming, Linux, FOSS, iOS jailbreaking, embedded systems, robotics, and game development.
+# I'm a 13-year-old developer exploring programming, Linux, FOSS, iOS jailbreaking, embedded systems, robotics, and game development.
 
 <details class="about-me">
   <summary>Read more about me</summary>
