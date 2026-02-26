@@ -48,10 +48,55 @@ If not, please follow [this guide.](https://developers.cloudflare.com/dns/zone-s
 
 7. Make sure email routing is enabled and add other desired addresses if you would like.
 
-Done! You've setup email routing so you can receive emails in your normal Gmail inbox. It wasn't that hard, right?
+Done! You've setup email routing so you can receive emails in your normal email inbox. It wasn't that hard, right?
 
 ### Setting up Resend SMTP
 
-article is not finished
-if you see this blog post that means i accidentally pushed an unfininished thing to git
-and as a result the auto git pull on my server just took it :)
+This method of getting free custom emails uses Resend SMTP for sending emails. Resend is an email API made for developers and hobbyists alike, which also happens to support sending via SMTP.
+
+1. Go to `resend.com` and create a new account.
+
+2. It will show you the onboarding process. It's fairly straightforward, just follow the instructions to create an API key and send a test email and you should be all set. Remember to save the API key somewhere safe, you'll need it.
+
+3. From the Resend dashboard, go to Domains and add your domain. It will determine your DNS provider (in this case, Cloudflare) and ask if you want to use automatic setup. In the case that it doesn't, it will tell you exactly which DNS records to add. Simply follow the instructions and you should be up and running soon enough.
+
+4. In your preferred email client, add another identity for the email you'd like using the following details:  
+    Host/Server: `smtp.resend.com`  
+    Port: `587`  
+    Username: `resend`  
+    Password: `<YOUR_API_KEY>`
+
+    This process varies by email client, but it shouldn't be that hard. Just search up "how to add another identity in <Gmail/Thunderbird/your email client>" and you should get some results.
+
+There you go! You've just setup Resend SMTP with your custom email address. Just one last thing...
+
+### Adding DMARC records
+
+Almost done! The last step is to add our DMARC records which tell mail servers what to do if our SPF/DKIM checks fail and act as a layer of security for our emails.
+
+1. In the Cloudflare dashboard, go to your domain and then DNS.
+
+2. Add the following DNS record:  
+    Type: `TXT`  
+    Name: `_dmarc`  
+    TTL: `Auto`  
+    Content: `v=DMARC1; p=reject; rua=mailto:EMAIL@EXAMPLE.COM`
+
+    If you want to add multiple emails, comma separate them in the rua field:  
+    For example: `v=DMARC1; p=reject; rua=mailto:email1@example.com,mailto:email2@example.com`  
+
+    You can also omit the rua field entirely, as it just tells email servers to send you aggregate reports of your emails so you can see if your SPF/DKIM/DMARC are passing or failing on average.  
+    For example: `v=DMARC1; p=reject`
+
+## Enjoy!
+
+Great job! You've just setup your own custom email address for completely free! You'll be able to send 100 emails per day, and a total of 3,000 emails per month, which is plenty for most people. 
+
+If your emails aren't sending or are being marked as spam, the DNS records probably haven't propagated yet. Just wait a few days and you'll be fine.
+
+---
+
+Thanks for reading my blog post!  
+I'm a 13-year-old developer making niche tech content here on my website and also on YouTube, so I really appreciate the support!  
+I'll (probably, if I get time) be coming out with a YouTube video corresponding to this blog post soon, and this page will be updated to show that when the time comes.  
+Feel free to [subscribe to my YouTube channel](https://youtube.com/@DevWithArslaan) and follow me on other socials!
