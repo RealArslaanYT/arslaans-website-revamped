@@ -1,0 +1,27 @@
+Arslaan Pathan License (ARPL)
+Version 1.0, March 1st 2026
+
+Copyright (c) 2026 Arslaan Pathan
+Everyone is permitted to copy and distribute verbatim copies of this document, but changing it is not allowed.
+
+You are free to:
+- Use, modify, copy, and distribute this software for any purpose, including commercially.
+
+Under the following conditions:
+1. Attribution: You must credit the original author(s) clearly in your project. For command-line tools, this can be in --version or --credits output. For commercial products, this must appear somewhere reasonably visible.
+
+2. Copyleft: If you distribute a modified version of this software, the source code must be publicly available and licensed under the ARPL v1.0. You may not relicense it. 
+
+3. Modified notice: If you distribute a modified version of this software, you must clearly state that it has been modified from the original somewhere reasonably visible, for example, your README or documentation. You are not obligated to list every change.
+
+4. No endorsement: You may not claim that your project(s) are endorsed, sponsored, or approved by the original author(s) without explicit written permission.
+
+5. No additional restrictions: You may not add any further restrictions beyond what this license requires.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--
+To apply the ARPL to your projects, add a LICENSE file with this text in the root of your project, and append the following header as a comment to the top of each source file:
+
+Copyright (c) [year] [copyright holders]
+This software is licensed under the ARPL. See LICENSE for details.
