@@ -17,7 +17,7 @@ nav_order: 1
   <summary>Read more about me</summary>
   <div markdown="1">
 
-I like computer science, writing stories (sometimes), Linux, FOSS (Free Open-Source Software), hacking, reverse-engineering and iOS jailbreaking. My favorite genre of music is Hyperpop, particularly Hyperpop-Digicore & Hyperpop-Glitchcore. I'm currently the project lead at Pidjon Enterprises, a small team of people building voice-controlled companion robots with custom embedded Linux. I also work on various other projects in web development, system programming, and hardware hacking.
+I like computer science, writing stories (sometimes), Linux, FOSS (Free Open-Source Software), hacking, reverse-engineering and iOS jailbreaking. My favorite genre of music is Hyperpop, particularly Hyperpop-Digicore & Hyperpop-Glitchcore. I work on various other projects in web development, system programming, and hardware hacking.
 
 I mainly use Arch Linux ARM on my M2 MacBook Pro (thanks to the [Asahi Linux](https://asahilinux.org){: target="_blank" } project) with the Hyprland tiling window manager along with waybar, wofi, hyprlock, and more. My favorite games are osu!, Minecraft and Stick Fight: The Game. I’ve been programming and tinkering with devices since somewhere around the age of six. What originally got me into programming was looking at my old iPad 2 (which I still have as of 2025, six years later - it's now jailbroken with [EtasonJB](https://etasonjb.tihmstar.net/){: target="_blank" } because I felt like it) and saying – “how are these apps made?”
 
@@ -33,7 +33,7 @@ Feel free to explore my projects, stories, and achievements, and thanks for stop
 
 # [Pidjon Enterprises](https://pidjon.arslaancodes.com){: .white target="_blank" }
 
-Co-founded a robotics team building voice-controlled companion robots with custom embedded Linux. Leading technical development and managing a 4-person team.
+Co-founded a robotics team (aka. me at school: "hey guys i think it'd be cool if we made a robot") consisting of 4 like-minded friends building voice-controlled robotics with custom embedded Linux.
 
 - Role: Project Lead & Lead Developer
 - Timeline: Oct 2025 - Present
@@ -42,16 +42,15 @@ Co-founded a robotics team building voice-controlled companion robots with custo
 
 ## Responsibilities
 
-- Architecting secure boot system with dm-verity and A/B OTA updates
-- Building custom Yocto-based Linux distribution for Raspberry Pi 5
-- Designing system architecture for SLAM, voice recognition, and AI integration
+- Designing a secure boot system with dm-verity and A/B OTA updates
+- Building custom embedded Linux distribution for Raspberry Pi 5
+- Designing system architecture for voice recognition and AI integration
 - Managing technical roadmap and coordinating with engineering team
 
 ---
 
 ## Tech Stack
 - Raspberry Pi 5
-- Yocto (OpenEmbedded, BitBake, kas)
 - Python
 - Go
 - dm-verity
