@@ -57,6 +57,11 @@ For a while, I was a long-time user of qutebrowser, a popular vim-like browser w
 
 So, to fix this problem, there was only one proper way. MAKE YOUR OWN BROWSER IN C AND WEBKITGTK!!!!!!!!!!!!!!!!!!!!!!!!!
 
+</div>
+</div>
+
+<br/>
+
 <div class="full-bar bg2">
 <div class="content" markdown="1">
 
