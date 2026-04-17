@@ -19,7 +19,7 @@ nav_order: 1
 
 I like computer science, writing stories (sometimes), Linux, FOSS (Free Open-Source Software), hacking, reverse-engineering and iOS jailbreaking. My favorite genre of music is Hyperpop, particularly Hyperpop-Digicore & Hyperpop-Glitchcore. I work on various projects in web development, system programming, and hardware hacking.
 
-I mainly use Gentoo Linux on my M2 MacBook Pro (thanks to the [Asahi Linux](https://asahilinux.org){: target="_blank" } project) with the MangoWM tiling window manager along with waybar, wofi, swaylock-effects, and more. My favorite games are osu!, Minecraft and Stick Fight: The Game. I’ve been programming and tinkering with devices since somewhere around the age of six. What originally got me into programming was looking at my old iPad 2 (which I still have as of 2025, six years later - it's now jailbroken with [EtasonJB](https://etasonjb.tihmstar.net/){: target="_blank" } because I felt like it) and saying – “how are these apps made?”
+I mainly use Gentoo Linux on my M2 MacBook Pro (thanks to the [Asahi Linux](https://asahilinux.org){: target="_blank" } project) with the MangoWM tiling window manager along with waybar, wofi, swaylock-effects, and more. My favorite games are osu!, Minecraft and Stick Fight: The Game. I’ve been programming and tinkering with devices since somewhere around the age of six. What originally got me into programming was looking at my old iPad 2 (which I still have as of 2025, seven years later - it's now jailbroken with [EtasonJB](https://etasonjb.tihmstar.net/){: target="_blank" } because I felt like it) and saying – “how are these apps made?”
 
 Feel free to explore my projects, stories, and achievements, and thanks for stopping by!
 
@@ -81,6 +81,14 @@ A lightweight CSS-in-JS library that makes your styles dynamic.
 - Minimal & Fast: Tiny footprint, no dependencies.
 - Familiar syntax: With stylesheet syntax almost identical to CSS, you can learn to use styl1sh.js easily.
 
+---
+
+## Why I built it 
+
+I was browsing the web when I found an old concept from late 1996, titled JSSS, which stood for "JavaScript-based Style Sheets". It's goal was to implement dynamic and adjustable stylesheets in JavaScript using simple but powerful syntax.  
+I found this concept really cool, and was somewhat sad that it wasn't taken into the modern web. The only web browser known to make some implementation of it was Netscape Navigator, and, we all know that Netscape doesn't really exist anymore.  
+So, I did the only sane thing: I just made it myself! My concept for the syntax is quite different and more modernized to add event handlers and hooks, but the idea is about the same.
+
 </div>
 </div>
 
@@ -101,6 +109,12 @@ A modification of Scratch that allows you to parse JSON, send HTTP requests, and
 
 - HTTP Requests in Scratch via the custom `HTTP Requests` extension
 - JSON Parsing in Scratch via the custom `JSON Parse` extension
+
+---
+
+## Why I built it
+
+scratch from temu
 
 </div>
 </div>
@@ -126,6 +140,12 @@ A modern, feature-packed client for Minecraft 1.21.5, designed to enhance the us
 - Freelook
 - Mod state saving
 
+--- 
+
+## Why I built it 
+
+No specific reason, I just wanted to get into Minecraft modding at the time and thought it'd be a fun project.
+
 </div>
 </div>
 
@@ -147,6 +167,12 @@ A lightweight remote browser service written in Python. Allows you to access a r
 - Responsive remote browser feed
 - Very lightweight --- one .html file for the frontend, one .py file for the backend.
 - Easy deployment using Docker
+
+---
+
+## Why I built it 
+
+Like some of my other projects, there's no specific reason, I just felt like it.
 
 </div>
 </div>
@@ -171,6 +197,12 @@ A fast-paced, pixel-art style stick figure fighting game.
 - Local multiplayer support
 - Online multiplayer support (in development)
 - Unique weapons and abilities (in development)
+
+---
+
+## Why I built it 
+
+"If Animation VERSUS will take too long to release, then FINE, ILL DO IT MYSELF!!!!!!!!!!" - me, 2025
 
 </div>
 </div>
