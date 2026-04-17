@@ -23,8 +23,8 @@ email: arslaan@arslaancodes.com
 description: >- # this means to ignore newlines until "baseurl:" (the next tag)
   13-year-old developer exploring programming, Linux, FOSS, iOS jailbreaking, embedded systems, robotics, and game development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  RealArslaanYT
+url: "https://arslaancodes.com" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: ArslaanPathan
 
 markdown: kramdown
 kramdown:
