@@ -19,7 +19,8 @@ nav_order: 1
 
 I like computer science, writing stories (sometimes), Linux, FOSS (Free Open-Source Software), hacking, reverse-engineering and iOS jailbreaking. My favorite genre of music is Hyperpop, particularly Hyperpop-Digicore & Hyperpop-Glitchcore. I work on various projects in web development, system programming, and hardware hacking.
 
-I mainly use Gentoo Linux on my M2 MacBook Pro (thanks to the [Asahi Linux](https://asahilinux.org){: target="_blank" } project) with the MangoWM tiling window manager along with waybar, wofi, swaylock-effects, and more. My favorite games are osu!, Minecraft and Stick Fight: The Game. I’ve been programming and tinkering with devices since somewhere around the age of six. What originally got me into programming was looking at my old iPad 2 (which I still have as of 2025, seven years later - it's now jailbroken with [EtasonJB](https://etasonjb.tihmstar.net/){: target="_blank" } because I felt like it) and saying – “how are these apps made?”
+I mainly use Gentoo Linux on my ThinkPad E16 Gen 3 (Intel Core Ultra 7 255H) with the MangoWM tiling window manager along with waybar, wofi, swaylock-effects, and more. Currently, my dotfiles are not available on Git, but hopefully that will change in the near future. My favorite games are osu!, Minecraft and Stick Fight: The Game. I’ve been programming and tinkering with devices since somewhere around the age of six. What originally got me into programming was looking at my old iPad 2 (which I still have as of 2025, seven years later - it's now jailbroken with [EtasonJB](https://etasonjb.tihmstar.net/){: target="_blank" } because I felt like it) and saying – “how are these apps made?”
+
 
 Feel free to explore my projects, stories, and achievements, and thanks for stopping by!
 
